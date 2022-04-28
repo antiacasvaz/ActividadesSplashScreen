@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_actividades.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_actividades1.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_batalla.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_batalla_cacheiras.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_concertos.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_entroido.xml" value="0.4013266998341625" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_entroidomal.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_festas_gastronomicas.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_main.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_mapa_cacheiras.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_mapa_raris.xml" value="0.1" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_mapa_reis.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_mercados.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_nadal.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_obradoiros.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_obradoiros1.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/batalla.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_actividades.xml" value="0.25" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_actividades_buena.xml" value="0.302536231884058" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_batalla_cacheiras.xml" value="0.28106508875739644" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_concertos.xml" value="0.5" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_entroido.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_festas_gastronomicas.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_main.xml" value="0.302536231884058" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_main2.xml" value="0.37771739130434784" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_mercados.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_nadal.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_obradoiros.xml" value="0.3713768115942029" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/content_scrolling.xml" value="0.378125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

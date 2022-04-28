@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">concelloTeo</string>
+    <string name="title_activity_festa_gastronomica_scrolling">festaGastronomicaScrolling</string>
+    <string name="tituloPolo">Festa do polo picantón</string>
+    <string name="lugarPolo">Lugar: Rarís</string>
+    <string name="dataPolo">Data: Maio</string>
+    <string name="descricionPolo">Todos os asistentes desta festa gastronómica poderán degustar un delicioso menú composto de picantón, pan, café e queimada. Durante a xornada tamén haberá pulpo e churrasco para tomar. Contará con animación musical.</string>
+    <string name="action_settings">Settings</string>
+    <string name="mercado">mercado</string>
+    <string name="tituloSardina">San Xoán</string>
+    <string name="lugarSardina">Lugar: Calo</string>
+    <string name="dataSardina">Data: Xullo</string>
+    <string name="descricionSardina">Sardiñada gratuita con tirada de fogos de artificio. Procederase a queima da cabra vella que dará paso a animación musical.</string>
+    <string name="tituloCabalos">San Martiño de Francos</string>
+    <string name="lugarCabalos">Lugar: Carballeira de Francos</string>
+    <string name="dataCabalos">Data: Novembro</string>
+    <string name="descricionCabalos">Feira cabalar de San Martiño que se celebra na Carballeira de Francos, na parroquia de Calo. Haberá actividades para o público familiar, xogos en familia, animación circense e animacións musicais.</string>
+</resources>
