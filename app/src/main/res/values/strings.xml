@@ -1,18 +1,70 @@
 <resources>
     <string name="app_name">concelloTeo</string>
     <string name="title_activity_festa_gastronomica_scrolling">festaGastronomicaScrolling</string>
+    <string name="tituloBatalla">Visitas teatralizadas da Batalla de Cacheiras</string>
+    <string name="lugarNegrita">Lugar</string>
+    <string name="lugarBatalla">Reitoral de Bamonde</string>
+    <string name="dataNegrita">Data</string>
+    <string name="dataBatalla">Abril</string>
+    <string name="infoNegrita">Info práctica</string>
+    <string name="infoBatalla1">Camiñada en grupos reducidos de 30 persoas. Haberá bus de regreso para ir do alto de Montouto a Bamonde.</string>
+    <string name="infoBatalla2">Turismo e Os Quinquilláns ofrecen rutas dramatizados sobre a Batalla de Cacheiras nas fins de semana dos meses de xullo, agosto e setembro. A proposta será unha ruta dende Bamonde ata o miradoiro de Montouto con case 9 quilómetros de percorrido. O actor e actriz farán varias paradas nas que debullarán parte deste acontecemento histórico. Estas rutas dramatizadas realizaranse os sábados de xullo e agosto pola mañá e os domingos de setembro tamén en horario de mañá. Para anotarse ábrese a inscrición no mes de xuño.</string>
+
     <string name="tituloPolo">Festa do polo picantón</string>
     <string name="lugarPolo">Lugar: Rarís</string>
     <string name="dataPolo">Data: Maio</string>
     <string name="descricionPolo">Todos os asistentes desta festa gastronómica poderán degustar un delicioso menú composto de picantón, pan, café e queimada. Durante a xornada tamén haberá pulpo e churrasco para tomar. Contará con animación musical.</string>
-    <string name="action_settings">Settings</string>
-    <string name="mercado">mercado</string>
+
+    <string name="tituloNadal">Nadal</string>
+    <string name="tituloMercados">Mercados</string>
+
     <string name="tituloSardina">San Xoán</string>
     <string name="lugarSardina">Lugar: Calo</string>
     <string name="dataSardina">Data: Xullo</string>
     <string name="descricionSardina">Sardiñada gratuita con tirada de fogos de artificio. Procederase a queima da cabra vella que dará paso a animación musical.</string>
+
     <string name="tituloCabalos">San Martiño de Francos</string>
     <string name="lugarCabalos">Lugar: Carballeira de Francos</string>
     <string name="dataCabalos">Data: Novembro</string>
     <string name="descricionCabalos">Feira cabalar de San Martiño que se celebra na Carballeira de Francos, na parroquia de Calo. Haberá actividades para o público familiar, xogos en familia, animación circense e animacións musicais.</string>
+
+    <string name="tituloConcertos">Concertos da banda de teo</string>
+    <string name="bamondeConcertos">Bamonde</string>
+    <string name="fechaBamondeConcertos">Domingo 24 de Abril</string>
+    <string name="luciConcertos">Lucí</string>
+    <string name="fechaLuciConcertos">Sábado 23 de Xullo</string>
+    <string name="concertoNadalConcertos">Concerto de Nadal</string>
+    <string name="fechaConcertosConcertos">Domingo 26 de Decembro</string>
+    <string name="LugarConcertosConcertos">Auditorio Municipal Constante Liste</string>
+
+    <string name="localizacionMercado">Localización</string>
+    <string name="sitioMercado">Praza Circular dos Tilos</string>
+    <string name="dataMercado">Data</string>
+    <string name="fechaMercado">Decembro</string>
+    <string name="tituloInfoMercado">Info práctica</string>
+    <string name="informacionMercado">Unha boa oportunidade para mercar os últimos agasallos antes das festas. Haberá postos de artesanía, viños teenses e sidra da Comarca do Ulla, produtos de panadaría, floraría, librarías e mercado labrego. E para animar a xornada haberá obradoiros para a cativada e carrusel ademais dunha cantina.</string>
+
+    <string name="tituloNegritaObradoiros">Obradoiros</string>
+    <string name="tituloObradoiros">Obradoiro de adornos</string>
+    <string name="dataObradoiro">Data: Decembro</string>
+    <string name="lugarObradoiro">Lugar: Escola de Ameneiro, Calo</string>
+    <string name="informacionObradoiro">Os talleres serán impartidos por un profesional. Os materiais serán facilitados polo Concello e despois do obradoiro poderán levar algún adorno para colocar na súa árbore ou nalgunha das árbores de noso que están xa instaladas por todo Teo</string>
+
+
+    <string name="tituloDoces">Obradoiro de doces de inverno</string>
+    <string name="dataDoces">Data: Xaneiro</string>
+    <string name="lugarDoces">Lugar: Casa Común de Rarís</string>
+    <string name="informacionDoces">Elaboración e decoración de postres de inverno sinxelos</string>
+
+    <string name="tituloDocesNadal">Obradoiro de doces de Nadal</string>
+    <string name="dataDocesNadal">Data: Decembro</string>
+    <string name="lugarDocesNadal">Lugar: Casa Común de Rarís</string>
+    <string name="informacionDocesNadal">Elaboración e decoración de postres de Nadal</string>
+
+
+
+
+    <string name="action_settings">Settings</string>
+    <string name="mercado">mercado</string>
+
 </resources>

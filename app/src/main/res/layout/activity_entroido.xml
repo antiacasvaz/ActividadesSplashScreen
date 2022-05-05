@@ -34,12 +34,9 @@
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="20dp"
         android:layout_marginTop="100dp"
-        android:layout_marginEnd="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
@@ -57,13 +54,13 @@
                 android:layout_gravity="center"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:paddingLeft="60dp"
                 android:paddingTop="15dp"
                 android:text="Entroido"
-                android:textAlignment="viewStart"
+                android:textAlignment="textStart"
                 android:textColor="#415419"
                 android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:translationX="30dp" />
 
             <ImageView
                 android:id="@+id/barra1"
@@ -77,9 +74,9 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="305dp"
-                android:layout_height="215dp"
-                android:translationX="30dp"
+                android:layout_width="284dp"
+                android:layout_height="199dp"
+                android:translationX="50dp"
                 android:translationY="-25dp"
                 app:srcCompat="@mipmap/hjg" />
 
@@ -133,7 +130,7 @@
 
             <TextView
                 android:id="@+id/textView55"
-                android:layout_width="317dp"
+                android:layout_width="333dp"
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:paddingTop="5dp"
@@ -225,6 +222,7 @@
                 android:layout_marginTop="70dp"
                 android:foregroundTint="#2DFFFFFF"
                 android:paddingTop="30dp"
+                android:translationX="30dp"
                 android:translationY="-50dp"
                 app:srcCompat="@mipmap/lineaverder" />
 
@@ -232,6 +230,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
+                android:translationX="30dp"
                 android:translationY="-30dp">
 
 
@@ -286,6 +285,30 @@
                     android:scaleType="fitXY"
                     app:srcCompat="@mipmap/logoinformacion"
                     app:tint="#7F000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="-180dp"
+                    android:layout_marginBottom="-40dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgTrigo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="-40dp"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/maiz"
+                        app:tint="#1F000000" />
+                </LinearLayout>
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

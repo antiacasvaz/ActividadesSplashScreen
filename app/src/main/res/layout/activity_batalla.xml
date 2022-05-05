@@ -55,9 +55,9 @@
                 android:layout_gravity="center"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:paddingLeft="60dp"
+                android:paddingLeft="40dp"
                 android:paddingTop="15dp"
-                android:text="Visitas teatrealizadas da Batalla de Cacheiras"
+                android:text="@string/tituloBatalla"
                 android:textAlignment="viewStart"
                 android:textColor="#415419"
                 android:textSize="24sp"
@@ -87,7 +87,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:paddingTop="30dp"
-                android:text="Lugar"
+                android:text="@string/lugarNegrita"
+                android:textStyle="bold"
                 android:translationY="-30dp" />
 
             <TextView
@@ -95,8 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
-                android:text="Reitoral de Baamonde"
-                android:textStyle="bold"
+                android:text="@string/lugarBatalla"
                 android:translationY="-30dp" />
 
             <TextView
@@ -106,6 +106,7 @@
                 android:paddingLeft="50dp"
                 android:paddingTop="15dp"
                 android:text="Data"
+                android:textStyle="bold"
                 android:translationY="-30dp" />
 
             <TextView
@@ -114,7 +115,6 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:text="Abril"
-                android:textStyle="bold"
                 android:translationY="-30dp" />
 
             <TextView
@@ -124,6 +124,7 @@
                 android:paddingLeft="50dp"
                 android:paddingTop="15dp"
                 android:text="Info práctica"
+                android:textStyle="bold"
                 android:translationY="-30dp" />
 
             <TextView
@@ -131,8 +132,7 @@
                 android:layout_width="317dp"
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
-                android:text="Camiñada en grupos reducidos de 30 persoas.  Haberá bus de regreso para ir do alto de Montouto a Bamonde."
-                android:textStyle="bold"
+                android:text="@string/infoBatalla1"
                 android:translationY="-30dp" />
 
             <TextView
@@ -141,8 +141,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:paddingTop="15dp"
-                android:text="Turismo e Os Quinquilláns ofrecen rutas dramatizados sobre a Batalla de Cacheiras nas fins de semana dos meses de xullo, agosto e setembro. A proposta será unha ruta dende Bamonde ata o miradoiro de Montouto con case 9 quilómetros de percorrido. O actor e actriz farán varias paradas nas que debullarán parte deste acontecemento histórico. Estas rutas dramatizadas realizaranse os sábados de xullo e agosto pola mañá e os domingos de setembro tamén en horario de mañá. Para anotarse ábrese a inscrición no mes de xuño."
-                android:textStyle="bold"
+                android:text="@string/infoBatalla2"
                 android:translationY="-30dp" />
 
             <ImageView

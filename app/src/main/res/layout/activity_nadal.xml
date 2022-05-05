@@ -60,10 +60,21 @@
                 android:layout_gravity="center"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:text="NADAL"
+                android:text="@string/tituloNadal"
                 android:textColor="#415419"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/barra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                android:paddingTop="-30dp"
+                android:translationY="-50dp"
+                app:srcCompat="@mipmap/lineaverder" />
 
             <ImageButton
                 android:id="@+id/imageButton13"
@@ -71,6 +82,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
                 android:contentDescription="TODO"
+                android:paddingTop="-30dp"
                 app:srcCompat="@mipmap/musica" />
 
             <ImageButton
@@ -85,6 +97,7 @@
                 android:id="@+id/imageButton17"
                 android:layout_width="385dp"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
                 android:contentDescription="mercado"
                 app:srcCompat="@mipmap/mercadonadal" />
 
@@ -154,8 +167,9 @@
                     app:tint="#7F000000" />
 
             </LinearLayout>
-
         </LinearLayout>
+
+
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
