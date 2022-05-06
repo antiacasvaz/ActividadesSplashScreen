@@ -55,7 +55,7 @@
                 android:background="#FFFFFF"
                 android:gravity="center"
                 android:paddingTop="15dp"
-                android:text="Entroido"
+                android:text="@string/tituloEntroido"
                 android:textAlignment="textStart"
                 android:textColor="#415419"
                 android:textSize="24sp"
@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:paddingTop="30dp"
-                android:text="Lugar"
+                android:text="@string/lugarEntroido"
                 android:textStyle="bold"
                 android:translationY="-30dp" />
 
@@ -96,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:paddingTop="5dp"
-                android:text="Raris - Reis - Cacheiras"
+                android:text="@string/lugarEntroido1"
                 android:translationY="-30dp" />
 
             <TextView
@@ -105,7 +105,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:paddingTop="15dp"
-                android:text="Data"
+                android:text="@string/dataEntroido"
                 android:textStyle="bold"
                 android:translationY="-30dp" />
 
@@ -115,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:paddingTop="5dp"
-                android:text="Marzo"
+                android:text="@string/dataEntroido1"
                 android:translationY="-30dp" />
 
             <TextView
@@ -124,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:paddingTop="15dp"
-                android:text="Info práctica"
+                android:text="@string/infoEntroido"
                 android:textStyle="bold"
                 android:translationY="-30dp" />
 
@@ -134,7 +134,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:paddingTop="5dp"
-                android:text="Os  Xenerais da Ulla  é o espectáculo máis destacado do Entroido tradicional da comarca do Ulla, que leva a cabo nas inmediacións da cidade de Santiago desde a primeira metade do século  XIX: os  Xenerais van montados dacabalo, disfrazados con vistosas vestimentas militares similares ás daquela época, pero que ademais inclúen adornos puramente  carnavalescos, que locen tamén os cabalos."
+                android:text="@string/informacionEntroido"
                 android:translationY="-30dp" />
 
             <LinearLayout
