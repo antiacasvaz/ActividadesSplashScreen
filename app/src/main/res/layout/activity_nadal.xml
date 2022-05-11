@@ -5,6 +5,7 @@
     android:id="@+id/imageButton13123"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F9FBF9"
     tools:context=".MainActivity">
 
     <ImageButton
@@ -55,10 +56,10 @@
 
             <TextView
                 android:id="@+id/texto"
-                android:layout_width="191dp"
-                android:layout_height="57dp"
+                android:layout_width="331dp"
+                android:layout_height="55dp"
                 android:layout_gravity="center"
-                android:background="#FFFFFF"
+                android:background="#F9FBF9"
                 android:gravity="center"
                 android:text="@string/tituloNadal"
                 android:textColor="#415419"
@@ -80,38 +81,47 @@
                 android:id="@+id/imageButton13"
                 android:layout_width="390dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="#F9FBF9"
                 android:contentDescription="TODO"
                 android:paddingTop="-30dp"
+                android:translationX="-20dp"
                 app:srcCompat="@mipmap/musica" />
 
             <ImageButton
                 android:id="@+id/imageButton15"
                 android:layout_width="392dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="#F9FBF9"
                 android:contentDescription="obradoiros"
-                app:srcCompat="@mipmap/obradoironadaldoces" />
+                android:translationX="-20dp"
+                app:srcCompat="@mipmap/obradoironadaldoces1" />
 
             <ImageButton
                 android:id="@+id/imageButton17"
                 android:layout_width="385dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="#F9FBF9"
                 android:contentDescription="mercado"
+                android:translationX="-20dp"
                 app:srcCompat="@mipmap/mercadonadal" />
 
             <ImageView
-                android:id="@+id/imageView13"
-                android:layout_width="match_parent"
-                android:layout_height="43dp"
+                android:id="@+id/barra8"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
                 android:paddingTop="30dp"
+                android:translationY="-50dp"
                 app:srcCompat="@mipmap/lineaverder" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:translationY="-30dp"
+                android:visibility="visible">
 
 
                 <ImageButton
@@ -123,7 +133,9 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/facebook"
                     app:tint="#7F000000" />
 
@@ -136,7 +148,9 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="twitter"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/twitter"
                     app:tint="#7F000000" />
 
@@ -149,7 +163,9 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/instagram"
                     app:tint="#7F000000" />
 
@@ -162,10 +178,11 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="información"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/logoinformacion"
                     app:tint="#7F000000" />
-
             </LinearLayout>
         </LinearLayout>
 

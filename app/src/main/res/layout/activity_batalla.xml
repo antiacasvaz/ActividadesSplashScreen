@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#F9FBF9">
 
     <ImageButton
         android:id="@+id/botonTeo5"
@@ -36,6 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="100dp"
+        android:backgroundTint="#F9FBF9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,12 +55,10 @@
                 android:layout_width="372dp"
                 android:layout_height="104dp"
                 android:layout_gravity="center"
-                android:background="#FFFFFF"
-                android:gravity="center"
+                android:background="#F9FBF9"
                 android:paddingLeft="40dp"
                 android:paddingTop="15dp"
                 android:text="@string/tituloBatalla"
-                android:textAlignment="viewStart"
                 android:textColor="#415419"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -88,6 +88,7 @@
                 android:paddingLeft="50dp"
                 android:paddingTop="30dp"
                 android:text="@string/lugarNegrita"
+                android:textColor="#8A8585"
                 android:textStyle="bold"
                 android:translationY="-30dp" />
 
@@ -97,6 +98,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:text="@string/lugarBatalla"
+                android:textColor="#8A8585"
                 android:translationY="-30dp" />
 
             <TextView
@@ -105,7 +107,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:paddingTop="15dp"
-                android:text="Data"
+                android:text="@string/dataNegrita"
+                android:textColor="#8A8585"
                 android:textStyle="bold"
                 android:translationY="-30dp" />
 
@@ -114,7 +117,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
-                android:text="Abril"
+                android:text="@string/dataBatalla"
+                android:textColor="#8A8585"
                 android:translationY="-30dp" />
 
             <TextView
@@ -123,9 +127,10 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:paddingTop="15dp"
-                android:text="Info práctica"
+                android:text="@string/infoNegrita"
                 android:textStyle="bold"
-                android:translationY="-30dp" />
+                android:translationY="-30dp"
+                android:textColor="#8A8585" />
 
             <TextView
                 android:id="@+id/textView54"
@@ -133,6 +138,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="50dp"
                 android:text="@string/infoBatalla1"
+                android:textColor="#8A8585"
                 android:translationY="-30dp" />
 
             <TextView
@@ -142,6 +148,7 @@
                 android:paddingLeft="50dp"
                 android:paddingTop="15dp"
                 android:text="@string/infoBatalla2"
+                android:textColor="#8A8585"
                 android:translationY="-30dp" />
 
             <ImageView
@@ -174,6 +181,8 @@
                     android:contentDescription="facebook"
                     android:scaleType="fitXY"
                     app:srcCompat="@mipmap/facebook"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -185,6 +194,8 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="twitter"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     android:scaleType="fitXY"
                     app:srcCompat="@mipmap/twitter"
                     app:tint="#7F000000" />
@@ -200,6 +211,8 @@
                     android:contentDescription="instagram"
                     android:scaleType="fitXY"
                     app:srcCompat="@mipmap/instagram"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -213,6 +226,8 @@
                     android:contentDescription="información"
                     android:scaleType="fitXY"
                     app:srcCompat="@mipmap/logoinformacion"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
             </LinearLayout>
 

@@ -2,7 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#F9FBF9">
 
     <ImageButton
         android:id="@+id/botonTeo7"
@@ -35,6 +36,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="100dp"
+        android:background="#F9FBF9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,15 +54,13 @@
                 android:layout_width="372dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:background="#FFFFFF"
-                android:gravity="center"
+                android:background="#F9FBF9"
                 android:paddingTop="15dp"
                 android:text="@string/tituloEntroido"
-                android:textAlignment="textStart"
+                android:textAlignment="center"
                 android:textColor="#415419"
                 android:textSize="24sp"
-                android:textStyle="bold"
-                android:translationX="30dp" />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/barra1"
@@ -87,6 +87,7 @@
                 android:paddingLeft="50dp"
                 android:paddingTop="30dp"
                 android:text="@string/lugarEntroido"
+                android:textColor="#8A8585"
                 android:textStyle="bold"
                 android:translationY="-30dp" />
 
@@ -97,6 +98,7 @@
                 android:paddingLeft="50dp"
                 android:paddingTop="5dp"
                 android:text="@string/lugarEntroido1"
+                android:textColor="#8A8585"
                 android:translationY="-30dp" />
 
             <TextView
@@ -106,6 +108,7 @@
                 android:paddingLeft="50dp"
                 android:paddingTop="15dp"
                 android:text="@string/dataEntroido"
+                android:textColor="#8A8585"
                 android:textStyle="bold"
                 android:translationY="-30dp" />
 
@@ -116,6 +119,7 @@
                 android:paddingLeft="50dp"
                 android:paddingTop="5dp"
                 android:text="@string/dataEntroido1"
+                android:textColor="#8A8585"
                 android:translationY="-30dp" />
 
             <TextView
@@ -125,6 +129,7 @@
                 android:paddingLeft="50dp"
                 android:paddingTop="15dp"
                 android:text="@string/infoEntroido"
+                android:textColor="#8A8585"
                 android:textStyle="bold"
                 android:translationY="-30dp" />
 
@@ -135,6 +140,7 @@
                 android:paddingLeft="50dp"
                 android:paddingTop="5dp"
                 android:text="@string/informacionEntroido"
+                android:textColor="#8A8585"
                 android:translationY="-30dp" />
 
             <LinearLayout
@@ -245,6 +251,8 @@
                     android:contentDescription="facebook"
                     android:scaleType="fitXY"
                     app:srcCompat="@mipmap/facebook"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -258,6 +266,8 @@
                     android:contentDescription="twitter"
                     android:scaleType="fitXY"
                     app:srcCompat="@mipmap/twitter"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -271,6 +281,8 @@
                     android:contentDescription="instagram"
                     android:scaleType="fitXY"
                     app:srcCompat="@mipmap/instagram"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -284,6 +296,8 @@
                     android:contentDescription="información"
                     android:scaleType="fitXY"
                     app:srcCompat="@mipmap/logoinformacion"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
             </LinearLayout>
 

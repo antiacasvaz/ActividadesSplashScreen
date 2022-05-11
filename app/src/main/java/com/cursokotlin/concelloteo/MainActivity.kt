@@ -19,5 +19,6 @@ class MainActivity : AppCompatActivity() {
             val acceder = Intent(this, actividades::class.java)
             startActivity(acceder)
         }
+
     }
 }

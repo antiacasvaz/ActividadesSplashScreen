@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#F9FBF9">
 
     <ImageButton
         android:id="@+id/botonTeo2"
@@ -53,12 +54,11 @@
                 android:layout_width="372dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:background="#FFFFFF"
-                android:gravity="center"
+                android:background="#F9FBF9"
                 android:paddingLeft="60dp"
                 android:paddingTop="15dp"
-                android:text="Festas gastronómicas"
-                android:textAlignment="viewStart"
+                android:text="@string/tituloGastronomicas"
+                android:textAlignment="textStart"
                 android:textColor="#415419"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -87,6 +87,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="60dp"
                 android:text="@string/tituloPolo"
+                android:textColor="#8A8585"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -96,7 +97,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="60dp"
                 android:paddingTop="10dp"
-                android:text="@string/dataPolo" />
+                android:text="@string/dataPolo"
+                android:textColor="#8A8585" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -104,7 +106,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="60dp"
                 android:paddingTop="10dp"
-                android:text="@string/lugarPolo" />
+                android:text="@string/lugarPolo"
+                android:textColor="#8A8585" />
 
             <TextView
                 android:id="@+id/textView51"
@@ -112,7 +115,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="60dp"
                 android:paddingTop="10dp"
-                android:text="@string/descricionPolo" />
+                android:text="@string/descricionPolo"
+                android:textColor="#8A8585" />
 
             <ImageView
                 android:id="@+id/imageView14"
@@ -129,6 +133,7 @@
                 android:paddingLeft="60dp"
                 android:paddingTop="60dp"
                 android:text="@string/tituloSardina"
+                android:textColor="#8A8585"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -138,7 +143,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="60dp"
                 android:paddingTop="10dp"
-                android:text="@string/dataSardina" />
+                android:text="@string/dataSardina"
+                android:textColor="#8A8585" />
 
             <TextView
                 android:id="@+id/textView57"
@@ -146,7 +152,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="60dp"
                 android:paddingTop="10dp"
-                android:text="@string/lugarSardina" />
+                android:text="@string/lugarSardina"
+                android:textColor="#8A8585" />
 
             <TextView
                 android:id="@+id/textView58"
@@ -154,7 +161,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="60dp"
                 android:paddingTop="10dp"
-                android:text="@string/descricionSardina" />
+                android:text="@string/descricionSardina"
+                android:textColor="#8A8585" />
 
             <ImageView
                 android:id="@+id/imageView15"
@@ -171,6 +179,7 @@
                 android:paddingLeft="60dp"
                 android:paddingTop="60dp"
                 android:text="@string/tituloCabalos"
+                android:textColor="#8A8585"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -180,7 +189,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="60dp"
                 android:paddingTop="10dp"
-                android:text="@string/dataCabalos" />
+                android:text="@string/dataCabalos"
+                android:textColor="#8A8585" />
 
             <TextView
                 android:id="@+id/textView61"
@@ -188,7 +198,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="60dp"
                 android:paddingTop="10dp"
-                android:text="@string/lugarCabalos" />
+                android:text="@string/lugarCabalos"
+                android:textColor="#8A8585" />
 
             <TextView
                 android:id="@+id/textView62"
@@ -196,7 +207,55 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="60dp"
                 android:paddingTop="10dp"
-                android:text="@string/descricionCabalos" />
+                android:text="@string/descricionCabalos"
+                android:textColor="#8A8585" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="258dp"
+                android:layout_height="172dp"
+                android:translationX="60dp"
+                android:translationY="30dp"
+                app:srcCompat="@mipmap/xamon" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:paddingTop="60dp"
+                android:text="@string/tituloXamon"
+                android:textColor="#8A8585"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:paddingTop="10dp"
+                android:text="@string/dataXamon"
+                android:textColor="#8A8585" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:paddingTop="10dp"
+                android:text="@string/lugarXamon"
+                android:textColor="#8A8585" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="30dp"
+                android:text="@string/descricionCabalos"
+                android:textColor="#8A8585" />
 
             <ImageView
                 android:id="@+id/barra2"
@@ -227,7 +286,9 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/facebook"
                     app:tint="#7F000000" />
 
@@ -240,7 +301,9 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="twitter"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/twitter"
                     app:tint="#7F000000" />
 
@@ -253,7 +316,9 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/instagram"
                     app:tint="#7F000000" />
 
@@ -266,10 +331,13 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="información"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/logoinformacion"
                     app:tint="#7F000000" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -287,6 +355,7 @@
                     app:srcCompat="@mipmap/maiz"
                     app:tint="#1F000000" />
             </LinearLayout>
+
             <androidx.constraintlayout.widget.Barrier
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

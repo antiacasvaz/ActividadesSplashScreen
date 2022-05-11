@@ -4,11 +4,30 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/iconoabertura"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/iconoabertura"
         android:supportsRtl="true"
         android:theme="@style/Theme.ConcelloTeo">
+
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".mapaCacheiras"
             android:exported="false" />
@@ -40,33 +59,15 @@
             android:exported="false" />
         <activity
             android:name=".festasGastronomicas"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".festaGastronomicaScrolling"
             android:exported="false"
             android:label="@string/title_activity_festa_gastronomica_scrolling"
-            android:theme="@style/Theme.ConcelloTeo.NoActionBar" />
+            android:theme="@style/Theme.ConcelloTeo.NoActionBar"/>
         <activity
             android:name=".batalla"
             android:exported="false" />
         <activity
             android:name=".actividades"
             android:exported="false" />
-        <activity
-            android:name=".actividades"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

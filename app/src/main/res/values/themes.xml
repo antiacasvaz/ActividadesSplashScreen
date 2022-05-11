@@ -17,6 +17,12 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
+    <style name="SplashTheme" parent="Theme.ConcelloTeo">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+
     <style name="Theme.ConcelloTeo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="Theme.ConcelloTeo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
